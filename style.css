@@ -1,0 +1,497 @@
+.container{
+    background-color: rgb(242,252,255);
+    width: 1350;
+    height: 605;
+    position: relative;
+}
+
+.upper{
+    width: 1350;
+    height: 80;
+    position: absolute;
+    margin-top: 25;
+}
+
+.upper img{
+    margin-left: 45;
+    width: 190;
+    height: 80;
+    position: absolute;
+}
+
+.buttons{
+    width: 550;
+    height: 80;
+    margin-left: 750;
+    position: absolute;
+}
+
+.btns{
+    background-color: transparent;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid rgb(235,131,33);
+    margin-left: 30;
+    width: 120;
+    height: 50;
+    margin-top: 15;
+}
+
+.btn{
+    background-color: rgb(17,158,252);
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    margin-left: 50;
+    width: 120;
+    height: 50;
+    margin-top: 15;
+}
+
+.text_gras{
+    font-size: 60px;
+    font-weight: bold;
+    width: 500;
+    height: 150;
+    margin-left: 100;
+    margin-top: 150;
+    position: absolute;
+    text-align: center;
+    color: rgb(235, 114, 33);
+}
+
+.img_intro{
+    width: 350;
+    height: 250;
+    margin-top: 130;
+    margin-left: 780;
+    position: absolute;
+}
+
+.img_intro img{
+    width: 390;
+    height: 270;
+}
+
+.four{
+    width: 700;
+    height: 150;
+    position: absolute;
+    margin-top: 400;
+    margin-left: 10;
+}
+
+.l1c1{
+    width: 350;
+    height: 75;
+    position: absolute;
+}
+
+.l1c2{
+    width: 400;
+    height: 75;
+    margin-left: 350;
+    position: absolute;
+}
+
+.l2c1{
+    width: 350;
+    height: 75;
+    margin-top: 75;
+    position: absolute;
+}
+
+.l2c2{
+    width: 400;
+    height: 75;
+    margin-left: 350;
+    margin-top: 75;
+    position: absolute;
+}
+
+.p_lc{
+    color: rgb(17,158,252);
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 80;
+    margin-top: -43;
+    position: absolute;
+}
+
+.p_lc2{
+    color: rgb(17,158,252);
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 80;
+    margin-top: -50;
+    position: absolute;
+}
+
+.btn_flc{
+    background-color: transparent;
+    border: none;
+    width: 40;
+    height: 60;
+    margin-left: 215;
+}
+
+.btn_flc img{
+    margin-top: -1;
+    margin-left: -6;
+    width: 40;
+    height: 60;
+}
+
+.btn_flc2{
+    background-color: transparent;
+    border: none;
+    width: 40;
+    height: 60;
+    margin-left: 255;
+}
+
+.btn_flc2 img{
+    margin-top: -1;
+    margin-left: -6;
+    width: 40;
+    height: 60;
+}
+
+.intro{
+    width: 1347;
+    height: 605;
+    position: relative;
+}
+
+.stats{
+    border: rgb(17,158,252) 5px solid;
+    border-radius: 30px;
+    margin-top: 650;
+    margin-left: 290;
+    width: 800;
+    height: 150;
+    position: absolute;
+}
+
+.stats p{
+    color: rgb(235, 114, 33);
+    font-size: 25px;
+    margin-top: 30;
+    font-weight: bold;
+    width: 100;
+    position: absolute;
+    text-align: center;
+}
+
+.orange{
+    background-color: rgb(235, 114, 33);
+    width: 5;
+    height: 100;
+    margin-top: 1000;
+    margin-left: 670;
+    position: absolute;
+}
+
+.contact{
+    background-color: rgb(17,158,252);
+    width: 1335;
+    height: 10;
+    position: absolute;
+    margin-top: 1200;
+}
+
+.paragraph{
+    width: 1347;
+    height: 100;
+    position: absolute;
+}
+
+.p1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 55;
+    margin-left: 100;
+    position: absolute;
+}
+
+.p2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 55;
+    margin-left: 355;
+    position: absolute;
+}
+
+.p3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 55;
+    margin-left: 850;
+    position: absolute;
+}
+
+.left_btn{
+    width: 200;
+    height: 300;
+    position: absolute;
+    margin-top: 160;
+    margin-left: 40;
+}
+
+.btn1{
+    background-color: rgb(17,158,252);
+    width: 120;
+    height: 60;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu{
+    background-color: rgb(17,158,252);
+    width: 250;
+    height: 500;
+    position: absolute;
+    margin-top: 110;
+    margin-left: 270;
+}
+
+.text_btn{
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    color: white;
+    width: 180;
+    height: 50;
+    margin-left: 40;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.text_btn:hover{
+    background-color: white;
+    color: rgb(17,158,252);
+    transition: 0.4s;
+}
+
+.profil_div{
+    background-color: rgb(242,252,255);
+    width: 700;
+    height: 500;
+    margin-top: 110;
+    margin-left: 600;
+    position: absolute;
+}
+
+.profil{
+    background-color: white;
+    width: 600;
+    height: 80;
+    margin-left: 50;
+    margin-top: 50;
+    border: 2.5px gray solid;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.profil img{
+    background-color: rgb(235, 114, 33);
+    width: 60;
+    height: 60;
+    border-radius: 30px;
+    margin-top: 10;
+    margin-left: 30;
+    position: absolute;
+}
+
+.name{
+    width: 160;
+    height: 50;
+    margin-top: 15;
+    margin-left: 160;
+    position: absolute;
+}
+
+.travail{
+    width: 130;
+    height: 50;
+    margin-top: 19;
+    margin-left: 400;
+    position: absolute;
+}
+
+/*Style médecin*/
+
+.bleu{
+    background-color: rgb(17,158,252);
+    width: 270;
+    height: 608;
+    position: absolute;
+}
+
+.top{
+    width: 1080;
+    height: 80;
+    margin-left: 270;
+    position: absolute;
+}
+
+.top h1{
+    color: rgb(235, 114, 33);
+    margin-top: 30;
+    font-weight: bold;
+    margin-left: 50;
+    position: absolute;
+}
+
+.btn_docs{
+    color: white;
+    font-size: 15px;
+    background-color: rgb(235, 114, 33);
+    width: 180;
+    height: 50;
+    border: none;
+    position: absolute;
+    margin-top: 25;
+    margin-left: 830;
+}
+
+.btn_docs:hover{
+    color: rgb(235, 114, 33);
+    background-color: white;
+    border: rgb(235, 114, 33) 2px solid;
+    transition: 0.4s;
+}
+
+.div_r1{
+    width: 250;
+    height: 250;
+    margin-top: 80;
+    margin-left: 450;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+}
+
+.div_r1:hover{
+    border-bottom: rgb(235, 114, 33) 2px solid;
+}
+
+.div_r1 img{
+    width: 250;
+    height: 230;
+    margin-left: -8;
+}
+
+/* Style alerte*/
+
+.profil_div2{
+    background-color: rgb(242,252,255);
+    width: 700;
+    height: 500;
+    margin-top: 110;
+    margin-left: 300;
+    position: absolute;
+}
+
+.informations{
+    width: 400;
+    height: 400;
+    margin-top: 100;
+    margin-left: 350;
+    position: absolute;
+}
+
+.alerte_image{
+    width: 350;
+    height: 350;
+    margin-top: 170;
+    margin-left: 850;
+    background-color: rgb(17,158,252);
+    position: absolute;
+}
+
+.alerte_image img{
+    width: 350;
+    height: 350;
+}
+
+.submit{
+    background-color: rgb(235, 114, 33);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 520;
+    margin-left: 670;
+    width: 130;
+    height: 40;
+}
+
+.submit:hover{
+    background-color: rgb(17,158,252);
+    color: white;
+}
+
+/*Style calendrier*/
+
+.calendrier{
+    width: 600;
+    height: 400;
+    margin-top: 150;
+    margin-left: 370;
+    position: absolute;
+}
+
+.titre_schedule{
+    width: 250;
+    height: 60;
+}
+
+.numbers{
+    position: absolute;
+    width: 420;
+    height: 300;
+    margin-top: 10;
+}
+
+.plan{
+    width: 200;
+    height: 300;
+    position: absolute;
+    margin-top: 10;
+    margin-left: 500;
+}
+
+.cal_content{
+    background-color: rgb(235, 114, 33);
+    width: 200;
+    height: 50;
+    border-radius: 5px;
+    margin-top: 50;
+    margin-left: 10;
+}
+
+.cal_content p{
+    color: white;
+    text-align: center;
+    padding-top: 15;
+}
+
+.ligne{
+    width: 420;
+    height: 60;
+    position: absolute;
+}
+
+.colonne1{
+    width: 60;
+    height: 60;
+    position: absolute;
+}

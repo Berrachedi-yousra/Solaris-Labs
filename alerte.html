@@ -1,0 +1,57 @@
+<html>
+    <script src="anim.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <head>
+        <title>Alerte</title>
+    </head>
+    <style>
+        input{
+            border: rgb(17,158,252) 2px solid;
+            border-radius: 10px;
+            width: 200;
+            height: 50;
+            margin-top: 5;
+            margin-left: 50;
+        }
+    </style>
+    <body style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+        <div class="bleu">
+            <button class="text_btn" style="margin-top: 50;" onclick="godossier()">
+                Dossier medical
+            </button>
+            <button class="text_btn" style="margin-top: 10;" onclick="gocalendrier()">
+                Calendrier
+            </button>
+            <button class="text_btn" style="margin-top: 10;" onclick="gochercher()">
+                Chercher un medecin
+            </button>
+            <button class="text_btn" style="margin-top: 10; font-weight: bold; background-color: white; 
+            color: rgb(17,158,252);" onclick="goalerte()">
+                Lancer une alerte
+            </button>
+        </div>
+
+        <div class="top">
+            <h1>
+                Aggravation des cas
+            </h1>
+        </div>
+
+        <div class="informations">
+            <p style="margin-top: 10; margin-left: 50;">Symptome 1</p>
+            <input type="text">
+            <p style="margin-top: 10; margin-left: 50;">Symptome 2</p>
+            <input type="text">
+            <p style="margin-top: 10; margin-left: 50;">Symptome 3</p>
+            <input type="text">
+            <p style="margin-top: 10; margin-left: 50;">Symptome 4</p>
+            <input type="text">
+        </div>
+
+        <div class="alerte_image">
+            <img src="img\hands.png" alt="">
+        </div>
+
+        <button class="submit">Soumettre l'alerte</button>
+    </body>
+</html>

@@ -1,0 +1,104 @@
+<html>
+    <script src="anim.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <head>
+        <title>Calendrier</title>
+    </head>
+    <body style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+        <div class="bleu">
+            <button class="text_btn" style="margin-top: 50;" onclick="godossier()">
+                Dossier medical
+            </button>
+            <button class="text_btn" style="margin-top: 10; font-weight: bold; background-color: white; 
+            color: rgb(17,158,252);" onclick="gocalendrier()">
+                Calendrier
+            </button>
+            <button class="text_btn" style="margin-top: 10;" onclick="gochercher()">
+                Chercher un medecin
+            </button>
+            <button class="text_btn" style="margin-top: 10;" onclick="goalerte()">
+                Lancer une alerte
+            </button>
+        </div>
+
+        <div class="top">
+            <h1>
+                Mon calendrier
+            </h1>
+            <button class="btn_docs">
+                Prendre rendez-vous
+            </button>
+        </div>
+
+        <div class="calendrier">
+            <div class="titre_schedule">
+                <img src="img\schedule.png" alt="" style="position: absolute; width: 50; height: 50;">
+                <h1 style="color: rgb(235, 114, 33); position: absolute; margin-left: 70; margin-top: 10;">
+                    Schedule</h1>
+            </div>
+
+            <div class="numbers">
+                <div class="ligne">
+                    <div class="colonne1"></div>
+                    <div class="colonne1" style="margin-left: 60;"></div>
+                    <div class="colonne1" style="margin-left: 120;">1</div>
+                    <div class="colonne1" style="margin-left: 180;">2</div>
+                    <div class="colonne1" style="margin-left: 240;">3</div>
+                    <div class="colonne1" style="margin-left: 300;">4</div>
+                    <div class="colonne1" style="margin-left: 360;">5</div>
+                </div>
+
+                <div class="ligne" style="margin-top: 60;">
+                    <div class="colonne1">6</div>
+                    <div class="colonne1" style="margin-left: 60;">7</div>
+                    <div class="colonne1" style="margin-left: 120;">8</div>
+                    <div class="colonne1" style="margin-left: 180;">9</div>
+                    <div class="colonne1" style="margin-left: 240;">10</div>
+                    <div class="colonne1" style="margin-left: 300;">11</div>
+                    <div class="colonne1" style="margin-left: 360;">12</div>
+                </div>
+
+                <div class="ligne" style="margin-top: 120;">
+                    <div class="colonne1">13</div>
+                    <div class="colonne1" style="margin-left: 60;">14</div>
+                    <div class="colonne1" style="margin-left: 120;">15</div>
+                    <div class="colonne1" style="margin-left: 180;">16</div>
+                    <div class="colonne1" style="margin-left: 240;">17</div>
+                    <div class="colonne1" style="margin-left: 300;">18</div>
+                    <div class="colonne1" style="margin-left: 360;">19</div>
+                </div>
+                <div class="ligne" style="margin-top: 180;">
+                    <div class="colonne1">20</div>
+                    <div class="colonne1" style="margin-left: 60;">21</div>
+                    <div class="colonne1" style="margin-left: 120;">22</div>
+                    <div class="colonne1" style="margin-left: 180;">23</div>
+                    <div class="colonne1" style="margin-left: 240;">24</div>
+                    <div class="colonne1" style="margin-left: 300;">25</div>
+                    <div class="colonne1" style="margin-left: 360;">26</div>
+                </div>
+                <div class="ligne" style="margin-top: 240;">
+                    <div class="colonne1">27</div>
+                    <div class="colonne1" style="margin-left: 60;">28</div>
+                    <div class="colonne1" style="margin-left: 120;">29</div>
+                    <div class="colonne1" style="margin-left: 180;">30</div>
+                    <div class="colonne1" style="margin-left: 240;"></div>
+                    <div class="colonne1" style="margin-left: 300;"></div>
+                    <div class="colonne1" style="margin-left: 360;"></div>
+                </div>
+
+            </div>
+
+            <div class="plan">
+                <h3>Plan de la journée</h3>
+                <p style="color: gray; margin-top: 30; font-size: 18px;">08:00</p>
+                <p style="color: gray; margin-top: 20; font-size: 18px;">09:00</p>
+                <p style="color: gray; margin-top: 20; font-size: 18px;">10:00</p>
+                <p style="color: gray; margin-top: 20; font-size: 18px;">11:00</p>
+                <div class="cal_content">
+                    <p>Consulter cardiologue</p>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
